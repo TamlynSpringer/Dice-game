@@ -1,0 +1,41 @@
+.container {
+  margin: auto;
+  text-align: center;
+  width: 80%;
+}
+
+.container .dice {
+  display: inline-flex;
+  text-align: center;
+}
+
+body {
+  background-color: #5e81cc;
+}
+
+h1 {
+  color: #e09719;
+  font-family: 'Permanent Marker';
+  font-size: 6rem;
+  font-weight: lighter;
+  margin: 20px;
+  text-shadow: 5px 0 #000000;
+}
+
+p {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+img {
+  width: 40%;
+}
+
+footer {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #ffffff;
+}
