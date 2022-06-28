@@ -8,11 +8,11 @@ var player2image = document.querySelectorAll("img")[1].setAttribute("src", rando
 
 
 if (player1 > player2) {
-  document.getElementsByTagName("h1")[0].innerHTML = "🏴 Play 1 Wins!"
+  document.getElementsByTagName("h1")[0].innerHTML = "🏴 Player 1 Wins!"
 }
 else if (player1 === player2) {
   document.getElementsByTagName("h1")[0].innerHTML = "Draw!"
 }
 else {
-  document.getElementsByTagName("h1")[0].innerHTML = "Play 2 Wins! 🏴"
+  document.getElementsByTagName("h1")[0].innerHTML = "Player 2 Wins! 🏴"
 }
